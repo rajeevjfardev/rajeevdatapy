@@ -1,3 +1,6 @@
+
+#practiceagain
+
 def remove_nth_character(s, n):
     if s and 0 <= n < len(s):
         return s[:n] + s[n+1:]

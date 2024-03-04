@@ -1,3 +1,6 @@
+
+#practiceagain
+
 def string_manipulation(s):
     if len(s) < 2:
         return ''

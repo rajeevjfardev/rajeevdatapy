@@ -1,7 +1,6 @@
 
 
 def find_longest_word(word_list):
-    longest = ""
     longest_length = 0
 
     for word in word_list:

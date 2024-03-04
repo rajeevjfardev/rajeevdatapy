@@ -1,3 +1,6 @@
+
+#practiceagain
+
 def replace_not_poor(s):
     not_pos = s.find('not')
     poor_pos = s.find('poor')
