@@ -8,4 +8,4 @@ for char in sample_string:
     else:
         char_frequency[char] = 1
 
-print("Character frequency in the string:", char_frequency)
+print("frequency", char_frequency)

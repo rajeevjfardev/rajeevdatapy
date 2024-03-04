@@ -1,5 +1,5 @@
-sample_string = "Hello, World!"
+sample= "Example"
 
-length_of_string = len(sample_string)
+length= len(sample)
 
-print("The length of the string is:", length_of_string)
+print(length)

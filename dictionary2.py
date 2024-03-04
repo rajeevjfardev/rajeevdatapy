@@ -1,5 +1,5 @@
-my_dict = {'name': 'Alice', 'age': 25}
+example = {'name': 'Rajeev', 'age': 27}
 
-my_dict['email'] = 'alice@example.com'
+example['email'] = 'rajeev@python.com'
 
-print("Updated dictionary:", my_dict)
+print(example)

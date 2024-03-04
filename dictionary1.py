@@ -1,7 +1,7 @@
-sample_dict = {'a': 3, 'b': 1, 'c': 2, 'd': 4}
+sample = {'a': 1, 'b': 2, 'c': 3, 'd': 5}
 
-sorted_dict_asc = dict(sorted(sample_dict.items(), key=lambda item: item[1]))
-sorted_dict_desc = dict(sorted(sample_dict.items(), key=lambda item: item[1], reverse=True))
+sorted_ascending = dict(sorted(sample.items(), key=lambda item: item[1]))
+sorted_descending = dict(sorted(sample.items(), key=lambda item: item[1], reverse=True))
 
-print("Dictionary sorted in ascending order by value:", sorted_dict_asc)
-print("Dictionary sorted in descending order by value:", sorted_dict_desc)
+print("ascending order:", sorted_ascending)
+print("descending order:", sorted_descending)
