@@ -1,12 +1,12 @@
-def modify_string(s):
+def modified(s):
     if len(s) < 3:
         return s
-    if s.endswith('ing'):
-        return s + 'ly'
-    return s + 'ing'
+    if s.endswith('thon'):
+        return s + 'av'
+    return s + 'thon'
 
-sample_strings = ['abc', 'string', 'no']
+sample_strings = ['python', 'java']
 
 for string in sample_strings:
-    result = modify_string(string)
-    print(f"Original string: '{string}' - Modified string: '{result}'")
+    result = modified(string)
+    print(result)
