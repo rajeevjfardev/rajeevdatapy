@@ -1,7 +1,3 @@
-numbers = [10, 72, 15, 32, 64]
+numbers = [1, 7, 5, 3, 6]
 
-
-smallest_number = min(numbers)
-
-
-print("The smallest number in the list is:", smallest_number)
+print("smallest number:", min(numbers))

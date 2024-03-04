@@ -1,9 +1,9 @@
-def is_list_empty(lst):
-    return not lst
+def checklist(value):
+    return not value
 
-example_list = []
+example= []
 
-if is_list_empty(example_list):
-    print("The list is empty.")
+if checklist(example):
+    print("empty")
 else:
-    print("The list is not empty.")
+    print(example)

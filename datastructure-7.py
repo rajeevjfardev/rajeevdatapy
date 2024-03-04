@@ -1,7 +1,7 @@
-my_list = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9]
+example = [2,3,4,4,5,6,8,8,8,9,3,4,4]
 
-my_set = set(my_list)
+example = set(example)
 
-my_list = list(my_set)
+list_example = list(example)
 
-print(my_list)
+print(list_example)

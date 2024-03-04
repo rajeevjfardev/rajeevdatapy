@@ -1,6 +1,5 @@
-original_list = [1, 2, 3, 4, 5]
+original= [100, 23, 73, 84, 55]
 
-cloned_list = original_list[:]
+cloned = original[:]
 
-print("Original List:", original_list)
-print("Cloned List:", cloned_list)
+print("Cloned:", cloned)
