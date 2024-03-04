@@ -6,4 +6,4 @@ def match_words(words):
     return ctr
 
 sample_list = ['abc', 'xyz', 'aba', '1221']
-print(match_words(sample_list))  # Output: 2
+print(match_words(sample_list)) 
